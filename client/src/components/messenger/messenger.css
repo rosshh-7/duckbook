@@ -1,0 +1,43 @@
+.messenger {
+  height: 90vh;
+  width: 100;
+  display: flex;
+}
+@media (min-width: 992px) {
+  .messenger {
+    width: 120%;
+  }
+}
+
+.chatMenu {
+  flex: 3.5;
+
+  border: none;
+}
+.chatMenuInput {
+  width: 90%;
+  padding: 10px 0px;
+}
+.chatBox {
+  flex: 5.5;
+}
+
+.chatMenuWrapper,
+.chatBoxWrapper,
+.chatOnlineWrapper {
+  padding: 10px;
+
+  height: 100%;
+}
+
+.chatBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chatBoxTop {
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
